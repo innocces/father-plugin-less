@@ -1,6 +1,7 @@
 {
   "name": "father-plugin-less-examples",
   "version": "0.0.1",
+  "private": true,
   "description": "examples of plugin",
   "license": "MIT",
   "module": "dist/index.js",
