@@ -9,6 +9,11 @@
     "babel",
     "father-build"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/innocces/father-plugin-less",
+    "branch": "main"
+  },
   "license": "MIT",
   "main": "dist/cjs/index.js",
   "types": "dist/cjs/index.d.ts",
@@ -69,8 +74,12 @@
     "prettier-plugin-packagejson": "^2.2.18",
     "stylelint": "^14.9.1"
   },
+  "engines": {
+    "node": ">=14"
+  },
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
   },
   "authors": [
     "innocces<jiangjiangjiangxi@gmail.com>"
