@@ -1,6 +1,6 @@
 {
   "name": "father-plugin-less",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "shims v1 lessInBabel feature in v4",
   "keywords": [
     "father",
@@ -74,6 +74,9 @@
     "prettier-plugin-packagejson": "^2.2.18",
     "stylelint": "^14.9.1"
   },
+  "peerDependencies": {
+    "father": "^4.1.0"
+  },
   "engines": {
     "node": ">=14"
   },
@@ -83,8 +86,5 @@
   },
   "authors": [
     "innocces<jiangjiangjiangxi@gmail.com>"
-  ],
-  "peerDependencies": {
-    "father": "^4.1.0"
-  }
+  ]
 }
