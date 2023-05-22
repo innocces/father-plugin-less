@@ -15,9 +15,7 @@ const loader: IBundlessLoader = function (content) {
   const cb = this.async();
   const { lessInBabel } = this.config as Config;
 
-  const lessOptions = (
-    typeof lessInBabel === 'boolean' && lessInBabel ? {} : lessInBabel ?? {}
-  ) as Less.Options;
+  const lessOptions = (lessInBabel ?? {}) as Less.Options;
   lessOptions.filename = this.resource;
 
   render(content, lessOptions).then(({ css, map }) => {
