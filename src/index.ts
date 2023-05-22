@@ -19,7 +19,7 @@ export default async (api: IApi) => {
     key: 'lessInBabel',
     config: {
       schema: ({ zod }) => {
-        return zod.boolean() || zod.object().deepPartial();
+        return zod.object().deepPartial();
       },
     },
     enableBy: api.EnableBy.config,

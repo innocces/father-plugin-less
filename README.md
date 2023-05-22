@@ -34,25 +34,11 @@ configure it in father config file `.fatherrc.ts`:
 import { defineConfig } from 'father-plugin-less';
 
 export defineConfig({
-  lessInBabel: boolean | LessInBabelOptions
+  lessInBabel: LessInBabelOptions
 });
 ```
 
 ## Options
-
-### Boolean
-
-enabel less feature
-
-```ts
-import { defineConfig } from 'father-plugin-less';
-
-export defineConfig({
-  lessInBabel: true
-});
-```
-
-### LessOptions
 
 custom config for less compiler. more config [see](https://lesscss.org/usage/#less-options)
 
